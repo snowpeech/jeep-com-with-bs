@@ -136,7 +136,7 @@ h3 {
 
 .greyback {
 	background-color: var(--ltgrey);
-	padding: 18px;
+	padding: 14px;
 }
 
 .cartilepic {
@@ -144,8 +144,8 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: auto;
-	width: 100%;
-	min-height: 120px;
+/*	width: 100%;*/
+	min-height: 140px;
 }
 
 #car1 {
@@ -164,6 +164,11 @@ h3 {
 	background-color: black;
 	color: white;
 	text-align: left;
+	font-size: 14px;
+}
+
+.greybktile p {
+	text-transform: none;
 }
 
 .card-footer {
@@ -171,8 +176,9 @@ h3 {
 	background-color: var(--dkgrey);
 	font-size: 12px;
 	color:white;
+	padding: .25rem .5rem;
 }
 
-.card-footer > .fas, .card-footer:hover {
+.card-footer > .fas, .card-footer:hover, .capture:hover {
 	color:var(--yellow);
 }
