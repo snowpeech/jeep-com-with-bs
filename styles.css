@@ -207,7 +207,7 @@ h3 {
 	padding: .75rem
 }
 
-.pair {
+#pair {
 	width: 300px;
 }
 
@@ -215,4 +215,15 @@ h3 {
 	.graphics p {
 		font-size: 20px;
 	}
+}
+
+.kbb {
+	padding: 30px 50px;
+	background-color: var(--ltgrey);
+	text-align: center;
+}
+
+.kbb p{
+	text-transform: none;
+	font-size: 14px;
 }
