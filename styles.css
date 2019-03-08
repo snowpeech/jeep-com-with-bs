@@ -231,3 +231,26 @@ h3 {
 #kbbbtn {
 	min-width:250px;
 }
+
+.searchlinks {
+	background-color: var(--dkgrey);
+	padding: 15px;
+	align-items: center;
+}
+
+.searchlinks a {
+	text-transform: capitalize;
+	color: var(--lnkgrey);
+	padding: 10px;
+	flex:1;
+	min-width: 120px;
+}
+
+.world::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f57d";
+	display: inline-block;
+	padding-right: 5px;
+	vertical-align: middle;
+	font-weight:900;
+}
