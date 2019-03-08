@@ -81,10 +81,10 @@ h3 {
 	padding: 10px 20px;
 	font-weight: bold;
 	font-size: 14px;
-	margin: 0px 33px;
 	white-space:nowrap;
 	text-transform: uppercase;
 	display: inline-flex;
+	text-align:center;
 }
 
 .ylwbtn::after {
@@ -218,12 +218,16 @@ h3 {
 }
 
 .kbb {
-	padding: 30px 50px;
+	/*padding: 30px 200px;*/
 	background-color: var(--ltgrey);
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .kbb p{
 	text-transform: none;
 	font-size: 14px;
+}
+
+#kbbbtn {
+	min-width:250px;
 }
